@@ -24,7 +24,7 @@ echo inventory=/home/itadmin/punepro/inventory  >> /home/itadmin/punepro/ansible
 echo remote_user=itadmin  >> /home/itadmin/punepro/ansible.cfg
 echo log_path= /home/itadmin/punepro/ansible.log  >> /home/itadmin/punepro/ansible.cfg
 echo host_key_checking=false  >> /home/itadmin/punepro/ansible.cfg
-echo interpreter_python = auto_silent   >> /home/itadmin/punepro/ansible.cfg
+echo interpreter_python=auto_silent   >> /home/itadmin/punepro/ansible.cfg
 echo [privilege_escalation]  >> /home/itadmin/punepro/ansible.cfg
 echo become=yes  >> /home/itadmin/punepro/ansible.cfg
 echo become_user=root  >> /home/itadmin/punepro/ansible.cfg
